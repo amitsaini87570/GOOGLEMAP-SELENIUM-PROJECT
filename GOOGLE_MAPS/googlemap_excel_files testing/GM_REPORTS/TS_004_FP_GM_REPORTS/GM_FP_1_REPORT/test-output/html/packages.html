@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link rel="stylesheet" href="css/reportng.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/reportng.js"></script>
+  <script type="text/javascript">  
+    	$(document).ready(function () {  
+	            $('tr.parent')  
+	                .css("cursor", "pointer")  
+	                .attr("title", "Click to expand/collapse")  
+	                .click(function () {  
+	                    $(this).siblings('.child-' + this.id).toggle();  
+	                });
+	                $('tr.parent')  
+	                .css("cursor", "pointer")  
+	                .attr("title", "Click to expand/collapse")  
+	                .click();
+	    });
+	    function changeIcon(elementId) {
+			if ($('#'+elementId).hasClass('glyphicon glyphicon-minus')){
+				$('#'+elementId).removeClass('glyphicon glyphicon-minus').toggleClass('glyphicon glyphicon-plus');
+			}else{
+				$('#'+elementId).removeClass('glyphicon glyphicon-plus').toggleClass('glyphicon glyphicon-minus');
+			}
+		}
+		function showReport(element,report){$(element).children(".tipFrame").attr('src', report).show();}
+		function hideReport(element){$(element).children(".tipFrame").hide();}
+    </script>
+</head>
+<body onload="return false;" onkeypress="hidePassPackages();">
+<div class="row">
+	<div class="col-xs-12">
+	<h3 class="normal" style="float: left;">Package Results</h3><br>
+	<button id="hideResults" type="button" class="btn-danger" onclick="hidePassPackages(this);" style="float: right;" title="Click or Press Any key to Hide/Show All Passed Suites">Show Only Failures</button>
+    </div>
+</div>
+<br>
+<div class="well well-large">
+<table class="table table-bordered" width="100%;" id="features">
+	<thead>
+   		<tr>
+   			<th width="30px"></th>
+   			<th scope="col" style="vertical-align:middle;text-align:left;">Package</th>
+   		 	<th scope="col" width="50px">Duration&nbsp;&nbsp;&nbsp;</th>
+   		 	<th scope="col" width="30px">Passed&nbsp;&nbsp;&nbsp;</th>
+    		<th scope="col" width="30px">Skipped&nbsp;&nbsp;&nbsp;</th>
+    		<th scope="col" width="30px">Failed&nbsp;&nbsp;&nbsp;</th>
+	    	  		</tr>
+  	</thead>
+  	<tbody>
+  		<tr class="parent" id="row0" title="Click to expand/collapse" style="cursor: pointer;" onclick="changeIcon('span-56d0634b-a242-49b8-8ebe-3a78baaee86c'); ">
+<td><span id="span-56d0634b-a242-49b8-8ebe-3a78baaee86c" class="glyphicon glyphicon-minus" style="color:blue"></span></td>
+<td align="left">TS_004_FORGOT_PASSWORD_FUNCTIONALITY</td><td align="center">00:02:23</td><td align="center" class="passed number">169</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td></tr>
+<tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test1_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_003_FORGOT_PASSWORD_FUNCTIONALITY4</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test2_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_009_FORGOT_PASSWORD_FUNCTIONALITY3</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test3_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_013_FORGOT_PASSWORD_FUNCTIONALITY2</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test4_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_005_FORGOT_PASSWORD_FUNCTIONALITY3</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test5_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_011_FORGOT_PASSWORD_FUNCTIONALITY3</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test6_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_007_FORGOT_PASSWORD_FUNCTIONALITY3</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test7_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_002_FORGOT_PASSWORD_FUNCTIONALITY3</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test8_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_001_FORGOT_PASSWORD_FUNCTIONALITY</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test9_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_012_FORGOT_PASSWORD_FUNCTIONALITY5</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test10_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_010_FORGOT_PASSWORD_FUNCTIONALITY3</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test11_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_006_FORGOT_PASSWORD_FUNCTIONALITY4</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test12_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_004_FORGOT_PASSWORD_FUNCTIONALITY2</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td><tr class="child-row0" style="display: table-row;"><td></td><td><a href="suite1_test13_results.html">TS_004_FORGOT_PASSWORD_FUNCTIONALITY.TC_FP_008_FORGOT_PASSWORD_FUNCTIONALITY4</a></td><td align="center">00:02:23</td><td align="center" class="passedCell">13</td><td align="center" class="zero number">0</td><td align="center" class="zero number">0</td>
+
+  	</tbody>
+</table>
+</div>
+</body>
+</html>

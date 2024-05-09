@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/reportngClass.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/reportngClass.js"></script>
+  <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+  <script type="text/javascript" src="js/json-min.js"></script>
+  <script type="text/javascript">
+	$(document).ready(function(){
+		$('.tablesorter').tablesorter({sortList: [[0,0]]});
+	});
+  </script>
+</head>
+<body onload="doParse(); return false;" onkeypress="collapseExpand();">
+<div class="well well-large">
+	<b>Test Info</>
+	<table class="table">
+	  <tr>
+	    <th>Test Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Test name</span>
+			</div>
+	    </th>
+	    <th id="testNameId">Test</th> 
+	  </tr>
+	  <tr>
+	    <th>Test Class : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassId')"/>
+	    		<span class="tooltiptextCustom">Copy full path Class name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#testClassNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Class name</span>
+			</div>
+	    </th> 
+	    <th id="testClassId">TS_003_LOGOUT_FUNCTIONALITY.TC_LG_003_LOGOUT_FUNCTIONALITY2<br>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_007_LOGOUT_FUNCTIONALITY2<br>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_006_LOGOUT_FUNCTIONALITY2<br>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_004_LOGOUT_FUNCTIONALITY2<br>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_005_LOGOUT_FUNCTIONALITY2<br></th>
+	    <th id="testClassNameId" hidden="true">TC_LG_003_LOGOUT_FUNCTIONALITY2<br>TC_LG_007_LOGOUT_FUNCTIONALITY2<br>TC_LG_006_LOGOUT_FUNCTIONALITY2<br>TC_LG_004_LOGOUT_FUNCTIONALITY2<br>TC_LG_005_LOGOUT_FUNCTIONALITY2<br></th>
+	  </tr>
+	  <tr>
+	    <th>Suite Name : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite name</span>
+			</div>
+		</th>
+	    <th id="suiteNameId">Suite</th>
+	  </tr>
+	  <tr>
+	    <th>Suite XML : </th>
+	    <th>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite full path name</span>
+			</div>
+	    	<div class="tooltipCustom">
+	    		<img src="images/copy.png" width="10" height="15" alt="Copy to Clipboard" onclick="copyToClipboard('#suiteXMLNameId')"/>
+	    		<span class="tooltiptextCustom">Copy Suite file name</span>
+			</div>
+	    </th> 
+	  	<th id="suiteXMLId">C:\Users\amits\eclipse-workspace\GOOGLE_MAPS\TS_003_LO_(3)_testng2.xml</th>
+	  	<th id="suiteXMLNameId" hidden="true">TS_003_LO_(3)_testng2.xml</th>
+	  </tr>
+	  	  <tr>
+	    <th>Total Time : </th>
+	    <th></th>
+	    <th>00:01:27</th> 
+	  </tr>
+	  <tr>
+	    <th>Total Steps : </th>
+	   	<th></th>
+	    <th>10</th> 
+	  </tr>
+	  <tr>
+	    <th>Status : </th>
+	    <th></th>
+	    <th><font color="green">PASS</font></th> 
+	  </tr>
+	</table>
+</div>
+<div class="well well-large">
+	<div class="row">
+		<div class="col-xs-12">
+	        <div class="text-right">
+	            <button id="hideResults" type="button" class="btn-danger" onclick="collapseExpand(this);" onkeypress="collapseExpand(this);" class="btn pull-right" title="Click or Press Any key to collapse/expand All Failed Tests and Configuration Methods">Show Only Failures</button>
+	        </div>
+	    </div>
+	</div>
+	<table class="tablesorter" border="1">
+		<thead>
+		<tr>
+		<th class="headerTime">Time</th>
+		<th class="headerTime" width="12%">Info</th>
+		<th class="headerTime" width="88%">Test</th>
+		</tr>
+		</thead>
+		<tbody>
+		
+				
+				
+																												
+				
+				
+												<tr>
+			<td class="time">1715241277548</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('7897c85f-bf0a-4d8e-9d07-743e2d0e7540','block');changeSingleIcon('span-7897c85f-bf0a-4d8e-9d07-743e2d0e7540');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_003_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-7897c85f-bf0a-4d8e-9d07-743e2d0e7540' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241277548</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logout_LF_LOGOUT_OPTION_NOT_DISPLAYED</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.006s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="7897c85f-bf0a-4d8e-9d07-743e2d0e7540" style="display: block;">
+												method namelogout_LF_LOGOUT_OPTION_NOT_DISPLAYED<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715241272281</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('fcd40b13-5124-4fd7-bb0d-06f79809e750','block');changeSingleIcon('span-fcd40b13-5124-4fd7-bb0d-06f79809e750');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_003_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-fcd40b13-5124-4fd7-bb0d-06f79809e750' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241272281</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VALIDATE_VALID_CREDENTIAL_LOGIN_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.013s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="fcd40b13-5124-4fd7-bb0d-06f79809e750" style="display: block;">
+												method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715241324251</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('2d64d2c8-0de5-4c03-8e0f-1c1ff1cbf75a','block');changeSingleIcon('span-2d64d2c8-0de5-4c03-8e0f-1c1ff1cbf75a');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_004_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-2d64d2c8-0de5-4c03-8e0f-1c1ff1cbf75a' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241324251</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VALIDATE_VALID_CREDENTIAL_LOGIN_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="2d64d2c8-0de5-4c03-8e0f-1c1ff1cbf75a" style="display: block;">
+												method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715241332317</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('818d34c0-6514-4aae-ac8e-407faefe7830','block');changeSingleIcon('span-818d34c0-6514-4aae-ac8e-407faefe7830');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_004_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-818d34c0-6514-4aae-ac8e-407faefe7830' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241332317</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logout_login_logout_immediately_after_logout</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.005s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="818d34c0-6514-4aae-ac8e-407faefe7830" style="display: block;">
+												method namelogout_login_logout_immediately_after_logout<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715241351372</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('1e722e03-8cdf-4cdc-b0b2-e6db7a7c3a97','block');changeSingleIcon('span-1e722e03-8cdf-4cdc-b0b2-e6db7a7c3a97');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_005_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-1e722e03-8cdf-4cdc-b0b2-e6db7a7c3a97' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241351372</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>logout_title_url_LOF_005</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.004s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="1e722e03-8cdf-4cdc-b0b2-e6db7a7c3a97" style="display: block;">
+												method namelogout_title_url_LOF_005<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715241340006</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('d104cce4-07a9-4cf8-843e-6f4590dba411','block');changeSingleIcon('span-d104cce4-07a9-4cf8-843e-6f4590dba411');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_005_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-d104cce4-07a9-4cf8-843e-6f4590dba411' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241340006</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VALIDATE_VALID_CREDENTIAL_LOGIN_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.010s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="d104cce4-07a9-4cf8-843e-6f4590dba411" style="display: block;">
+												method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715241315952</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('6c3bf128-737a-473d-b306-10f33ddab2bc','block');changeSingleIcon('span-6c3bf128-737a-473d-b306-10f33ddab2bc');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_006_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-6c3bf128-737a-473d-b306-10f33ddab2bc' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241315952</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_ui</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.005s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="6c3bf128-737a-473d-b306-10f33ddab2bc" style="display: block;">
+												method namevalidate_ui<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715241305731</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('cbceb627-fb42-4d5b-8946-00ceb64e7b00','block');changeSingleIcon('span-cbceb627-fb42-4d5b-8946-00ceb64e7b00');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_006_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-cbceb627-fb42-4d5b-8946-00ceb64e7b00' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241305731</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VALIDATE_VALID_CREDENTIAL_LOGIN_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.003s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="cbceb627-fb42-4d5b-8946-00ceb64e7b00" style="display: block;">
+												method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+										<tr>
+			<td class="time">1715241297066</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('37109059-b9a2-4896-b3ff-fde690039162','block');changeSingleIcon('span-37109059-b9a2-4896-b3ff-fde690039162');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_007_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-37109059-b9a2-4896-b3ff-fde690039162' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241297066</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>validate_supported_env</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.006s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="37109059-b9a2-4896-b3ff-fde690039162" style="display: block;">
+												method namevalidate_supported_env<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+						<tr>
+			<td class="time">1715241284702</td>
+			<td class="header passed" colspan="4" onClick="toggleElement('eef9a31b-7619-4296-9fa1-c3b84199acd1','block');changeSingleIcon('span-eef9a31b-7619-4296-9fa1-c3b84199acd1');" title="Click to expand/collapse" style="cursor: pointer;">
+			<div style="float:left;"><i>Class&nbsp;:&nbsp;</i>TS_003_LOGOUT_FUNCTIONALITY.TC_LG_007_LOGOUT_FUNCTIONALITY2</div>
+			<div style="float:right;">@Test @ with DataProvider : [""] &nbsp;&nbsp;<span id='span-eef9a31b-7619-4296-9fa1-c3b84199acd1' class="glyphicon glyphicon-menu-down"></span></div>
+			</td>
+			</tr>
+			<tr>
+	<td class="time">1715241284702</td>
+	<td class="methodTest">
+		<span class="description"><b>Method: </b>VALIDATE_VALID_CREDENTIAL_LOGIN_001</span><br>
+			<span class="description"><b>Description: </b></span><br>
+							<span class="duration"><b>Duration: </b>0.006s</span><br>
+	</td>
+	<td class="result">
+						<div class="stackTrace" id="eef9a31b-7619-4296-9fa1-c3b84199acd1" style="display: block;">
+												method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001<br>
+												method status1<br>
+								</td>
+	</div>
+</tr>
+					  
+	</tbody>
+	</table>
+</div>
+</body>
+</html>

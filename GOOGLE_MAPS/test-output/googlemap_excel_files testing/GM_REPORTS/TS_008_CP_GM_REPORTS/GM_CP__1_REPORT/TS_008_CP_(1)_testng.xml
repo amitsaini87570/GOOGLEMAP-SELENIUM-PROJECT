@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	
+	<listeners>
+		<listener class-name="screenshot.listnerss" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_001_CHANGE_PASSWORD2"/>
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_004_CHANGE_PASSWORD2"/>
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_003_CHANGE_PASSWORD2"/>
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_002_CHANGE_PASSWORD"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

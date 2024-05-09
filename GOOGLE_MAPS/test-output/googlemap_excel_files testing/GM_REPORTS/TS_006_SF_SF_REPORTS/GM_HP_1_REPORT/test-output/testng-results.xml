@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method namevalidate_ui_home_page_tc_gm_hp_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_navigate_tO_home_page_tc_gm_hp_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_navigate_TO_home_page_tc_gm_hp_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_supported_env_gm_hp_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method namevalidate_home_page_option_tc_gm_hp_002]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-09T14:08:39 IST" name="Suite" finished-at="2024-05-09T14:09:30 IST" duration-ms="50279">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T14:08:39 IST" name="Test" finished-at="2024-05-09T14:09:30 IST" duration-ms="50279">
+      <class name="TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_002_HOME_PAGE_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_002_HOME_PAGE_FUNCTIONALITY2@73ee04c8]" started-at="2024-05-09T14:09:16 IST" name="setup" finished-at="2024-05-09T14:09:29 IST" duration-ms="13683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_home_page_option_tc_gm_hp_002()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_002_HOME_PAGE_FUNCTIONALITY2@73ee04c8]" started-at="2024-05-09T14:09:29 IST" name="validate_home_page_option_tc_gm_hp_002" finished-at="2024-05-09T14:09:30 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_home_page_option_tc_gm_hp_002]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_home_page_option_tc_gm_hp_002 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_002_HOME_PAGE_FUNCTIONALITY2@73ee04c8]" started-at="2024-05-09T14:09:30 IST" name="teardown" finished-at="2024-05-09T14:09:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_002_HOME_PAGE_FUNCTIONALITY2 -->
+      <class name="TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_003_HOME_PAGE_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_003_HOME_PAGE_FUNCTIONALITY2@3246fb96]" started-at="2024-05-09T14:08:48 IST" name="setup" finished-at="2024-05-09T14:08:56 IST" duration-ms="8499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_navigate_tO_home_page_tc_gm_hp_001()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_003_HOME_PAGE_FUNCTIONALITY2@3246fb96]" started-at="2024-05-09T14:08:56 IST" name="validate_navigate_tO_home_page_tc_gm_hp_001" finished-at="2024-05-09T14:08:57 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_navigate_tO_home_page_tc_gm_hp_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_navigate_tO_home_page_tc_gm_hp_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_003_HOME_PAGE_FUNCTIONALITY2@3246fb96]" started-at="2024-05-09T14:08:57 IST" name="teardown" finished-at="2024-05-09T14:08:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_003_HOME_PAGE_FUNCTIONALITY2 -->
+      <class name="TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_005_HOME_PAGE_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_005_HOME_PAGE_FUNCTIONALITY2@61386958]" started-at="2024-05-09T14:09:09 IST" name="setup" finished-at="2024-05-09T14:09:16 IST" duration-ms="6331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_supported_env_gm_hp_001()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_005_HOME_PAGE_FUNCTIONALITY2@61386958]" started-at="2024-05-09T14:09:16 IST" name="validate_supported_env_gm_hp_001" finished-at="2024-05-09T14:09:16 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_supported_env_gm_hp_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_supported_env_gm_hp_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_005_HOME_PAGE_FUNCTIONALITY2@61386958]" started-at="2024-05-09T14:09:16 IST" name="teardown" finished-at="2024-05-09T14:09:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_005_HOME_PAGE_FUNCTIONALITY2 -->
+      <class name="TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_001_HOME_PAGE_FUNCTIONALITY">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_001_HOME_PAGE_FUNCTIONALITY@2e222612]" started-at="2024-05-09T14:08:57 IST" name="setup" finished-at="2024-05-09T14:09:09 IST" duration-ms="12663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_navigate_TO_home_page_tc_gm_hp_001()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_001_HOME_PAGE_FUNCTIONALITY@2e222612]" started-at="2024-05-09T14:09:09 IST" name="validate_navigate_TO_home_page_tc_gm_hp_001" finished-at="2024-05-09T14:09:09 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_navigate_TO_home_page_tc_gm_hp_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_navigate_TO_home_page_tc_gm_hp_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_001_HOME_PAGE_FUNCTIONALITY@2e222612]" started-at="2024-05-09T14:09:09 IST" name="teardown" finished-at="2024-05-09T14:09:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_001_HOME_PAGE_FUNCTIONALITY -->
+      <class name="TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_004_HOME_PAGE_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_004_HOME_PAGE_FUNCTIONALITY2@6f27a732]" started-at="2024-05-09T14:08:39 IST" name="setup" finished-at="2024-05-09T14:08:48 IST" duration-ms="8591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validate_ui_home_page_tc_gm_hp_001()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_004_HOME_PAGE_FUNCTIONALITY2@6f27a732]" started-at="2024-05-09T14:08:48 IST" name="validate_ui_home_page_tc_gm_hp_001" finished-at="2024-05-09T14:08:48 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method namevalidate_ui_home_page_tc_gm_hp_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_ui_home_page_tc_gm_hp_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_004_HOME_PAGE_FUNCTIONALITY2@6f27a732]" started-at="2024-05-09T14:08:48 IST" name="teardown" finished-at="2024-05-09T14:08:48 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_006_HOME_PAGE_FUNCTIONALITY.TC_HP_004_HOME_PAGE_FUNCTIONALITY2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

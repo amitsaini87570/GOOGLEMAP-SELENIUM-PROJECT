@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method nameVALIDATE_password_hide_CHANGE_PASSWORD_FUNCTIONALITY_006]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_ui_CHANGE_PASSWORD_FUNCTIONALITY_008]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_title_url_CHANGE_PASSWORD_FUNCTIONALITY_007]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_supported_env_CHANGE_PASSWORD_FUNCTIONALITY_008]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-09T15:54:51 IST" name="Suite" finished-at="2024-05-09T15:55:47 IST" duration-ms="56359">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T15:54:51 IST" name="Test" finished-at="2024-05-09T15:55:47 IST" duration-ms="56359">
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_006_CHANGE_PASSWORD2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_006_CHANGE_PASSWORD2@76f2bbc1]" started-at="2024-05-09T15:54:51 IST" name="setup" finished-at="2024-05-09T15:55:00 IST" duration-ms="9350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_password_hide_CHANGE_PASSWORD_FUNCTIONALITY_006()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_006_CHANGE_PASSWORD2@76f2bbc1]" started-at="2024-05-09T15:55:00 IST" name="VALIDATE_password_hide_CHANGE_PASSWORD_FUNCTIONALITY_006" finished-at="2024-05-09T15:55:00 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_password_hide_CHANGE_PASSWORD_FUNCTIONALITY_006]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_password_hide_CHANGE_PASSWORD_FUNCTIONALITY_006 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_006_CHANGE_PASSWORD2@76f2bbc1]" started-at="2024-05-09T15:55:00 IST" name="teardown" finished-at="2024-05-09T15:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_006_CHANGE_PASSWORD2 -->
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_007_CHANGE_PASSWORD2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_007_CHANGE_PASSWORD2@77eca502]" started-at="2024-05-09T15:55:10 IST" name="setup" finished-at="2024-05-09T15:55:24 IST" duration-ms="14879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_title_url_CHANGE_PASSWORD_FUNCTIONALITY_007()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_007_CHANGE_PASSWORD2@77eca502]" started-at="2024-05-09T15:55:24 IST" name="VALIDATE_title_url_CHANGE_PASSWORD_FUNCTIONALITY_007" finished-at="2024-05-09T15:55:24 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_title_url_CHANGE_PASSWORD_FUNCTIONALITY_007]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_title_url_CHANGE_PASSWORD_FUNCTIONALITY_007 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_007_CHANGE_PASSWORD2@77eca502]" started-at="2024-05-09T15:55:24 IST" name="teardown" finished-at="2024-05-09T15:55:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_007_CHANGE_PASSWORD2 -->
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_008_CHANGE_PASSWORD3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_008_CHANGE_PASSWORD3@7690781]" started-at="2024-05-09T15:55:00 IST" name="setup" finished-at="2024-05-09T15:55:10 IST" duration-ms="9566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_ui_CHANGE_PASSWORD_FUNCTIONALITY_008()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_008_CHANGE_PASSWORD3@7690781]" started-at="2024-05-09T15:55:10 IST" name="VALIDATE_ui_CHANGE_PASSWORD_FUNCTIONALITY_008" finished-at="2024-05-09T15:55:10 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_ui_CHANGE_PASSWORD_FUNCTIONALITY_008]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_ui_CHANGE_PASSWORD_FUNCTIONALITY_008 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_008_CHANGE_PASSWORD3@7690781]" started-at="2024-05-09T15:55:10 IST" name="teardown" finished-at="2024-05-09T15:55:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_008_CHANGE_PASSWORD3 -->
+      <class name="TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_009_CHANGE_PASSWORD4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_009_CHANGE_PASSWORD4@3246fb96]" started-at="2024-05-09T15:55:24 IST" name="setup" finished-at="2024-05-09T15:55:47 IST" duration-ms="22477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_supported_env_CHANGE_PASSWORD_FUNCTIONALITY_008()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_009_CHANGE_PASSWORD4@3246fb96]" started-at="2024-05-09T15:55:47 IST" name="VALIDATE_supported_env_CHANGE_PASSWORD_FUNCTIONALITY_008" finished-at="2024-05-09T15:55:47 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_supported_env_CHANGE_PASSWORD_FUNCTIONALITY_008]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_supported_env_CHANGE_PASSWORD_FUNCTIONALITY_008 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_009_CHANGE_PASSWORD4@3246fb96]" started-at="2024-05-09T15:55:47 IST" name="teardown" finished-at="2024-05-09T15:55:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_008_CHANGE_PASSWORD_FUNCTIONALITY.TC_GM_009_CHANGE_PASSWORD4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

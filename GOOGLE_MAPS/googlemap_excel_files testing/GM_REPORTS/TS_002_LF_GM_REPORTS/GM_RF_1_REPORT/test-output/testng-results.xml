@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[method nameVALIDATE_login__CHANGE_PASSWORD_LOGIN_FUNCTIONALITY_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_FORGOT_PASSWORD_LINK_LOGIN_005]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_password_toggle_hide_LOGIN_009]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_PLACEHOLDER_LOGIN_006]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_rightclick_password_pagesource_LOGIN_011]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_WITHOUTS_CREDENTIAL_LOGIN_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_rightclick_copy_option_LOGIN_010]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_supported_env_015]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_BACK_BUTTON_LOGIN_007]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_INVALID_email__LOGIN_002]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_INVALID_PASSWORD_LOGIN_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_title_url_lf_gm_013]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_BACK_BUTTON_AFTER_LOGOUT_LOGIN_008]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+    <line>
+      <![CDATA[method nameVALIDATE_ui_gm_lf_014]]>
+    </line>
+    <line>
+      <![CDATA[method status1]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-09T10:40:16 IST" name="Suite" finished-at="2024-05-09T10:42:49 IST" duration-ms="153619">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T10:40:16 IST" name="Test" finished-at="2024-05-09T10:42:49 IST" duration-ms="153619">
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_007_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_007_LOGIN_FUNCTIONALITY2@79da8dc5]" started-at="2024-05-09T10:41:31 IST" name="setup" finished-at="2024-05-09T10:41:40 IST" duration-ms="8785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_BACK_BUTTON_LOGIN_007()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_007_LOGIN_FUNCTIONALITY2@79da8dc5]" started-at="2024-05-09T10:41:40 IST" name="VALIDATE_BACK_BUTTON_LOGIN_007" finished-at="2024-05-09T10:41:40 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_BACK_BUTTON_LOGIN_007]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_BACK_BUTTON_LOGIN_007 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_007_LOGIN_FUNCTIONALITY2@79da8dc5]" started-at="2024-05-09T10:41:40 IST" name="teardown" finished-at="2024-05-09T10:41:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_007_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_002_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_002_LOGIN_FUNCTIONALITY2@1eb5174b]" started-at="2024-05-09T10:41:40 IST" name="setup" finished-at="2024-05-09T10:41:49 IST" duration-ms="9313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_INVALID_email__LOGIN_002()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_002_LOGIN_FUNCTIONALITY2@1eb5174b]" started-at="2024-05-09T10:41:49 IST" name="VALIDATE_INVALID_email__LOGIN_002" finished-at="2024-05-09T10:41:49 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_INVALID_email__LOGIN_002]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_INVALID_email__LOGIN_002 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_002_LOGIN_FUNCTIONALITY2@1eb5174b]" started-at="2024-05-09T10:41:49 IST" name="teardown" finished-at="2024-05-09T10:41:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_002_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_006_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_006_LOGIN_FUNCTIONALITY2@378542de]" started-at="2024-05-09T10:40:43 IST" name="setup" finished-at="2024-05-09T10:40:51 IST" duration-ms="8177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_PLACEHOLDER_LOGIN_006()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_006_LOGIN_FUNCTIONALITY2@378542de]" started-at="2024-05-09T10:40:51 IST" name="VALIDATE_PLACEHOLDER_LOGIN_006" finished-at="2024-05-09T10:40:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_PLACEHOLDER_LOGIN_006]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_PLACEHOLDER_LOGIN_006 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_006_LOGIN_FUNCTIONALITY2@378542de]" started-at="2024-05-09T10:40:51 IST" name="teardown" finished-at="2024-05-09T10:40:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_006_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_013_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_013_LOGIN_FUNCTIONALITY2@72cde7cc]" started-at="2024-05-09T10:42:00 IST" name="setup" finished-at="2024-05-09T10:42:07 IST" duration-ms="6941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_title_url_lf_gm_013()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_013_LOGIN_FUNCTIONALITY2@72cde7cc]" started-at="2024-05-09T10:42:07 IST" name="VALIDATE_title_url_lf_gm_013" finished-at="2024-05-09T10:42:07 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_title_url_lf_gm_013]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_title_url_lf_gm_013 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_013_LOGIN_FUNCTIONALITY2@72cde7cc]" started-at="2024-05-09T10:42:07 IST" name="teardown" finished-at="2024-05-09T10:42:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_013_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_015_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_015_LOGIN_FUNCTIONALITY2@c333c60]" started-at="2024-05-09T10:41:20 IST" name="setup" finished-at="2024-05-09T10:41:31 IST" duration-ms="11565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_supported_env_015()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_015_LOGIN_FUNCTIONALITY2@c333c60]" started-at="2024-05-09T10:41:31 IST" name="VALIDATE_supported_env_015" finished-at="2024-05-09T10:41:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_supported_env_015]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_supported_env_015 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_015_LOGIN_FUNCTIONALITY2@c333c60]" started-at="2024-05-09T10:41:31 IST" name="teardown" finished-at="2024-05-09T10:41:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_015_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_014_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_014_LOGIN_FUNCTIONALITY2@696da30b]" started-at="2024-05-09T10:42:31 IST" name="setup" finished-at="2024-05-09T10:42:49 IST" duration-ms="18005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_ui_gm_lf_014()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_014_LOGIN_FUNCTIONALITY2@696da30b]" started-at="2024-05-09T10:42:49 IST" name="VALIDATE_ui_gm_lf_014" finished-at="2024-05-09T10:42:49 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_ui_gm_lf_014]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_ui_gm_lf_014 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_014_LOGIN_FUNCTIONALITY2@696da30b]" started-at="2024-05-09T10:42:49 IST" name="teardown" finished-at="2024-05-09T10:42:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_014_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2@5fd4f8f5]" started-at="2024-05-09T10:42:07 IST" name="setup" finished-at="2024-05-09T10:42:22 IST" duration-ms="15264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_VALID_CREDENTIAL_LOGIN_001()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2@5fd4f8f5]" started-at="2024-05-09T10:42:22 IST" name="VALIDATE_VALID_CREDENTIAL_LOGIN_001" finished-at="2024-05-09T10:42:22 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_VALID_CREDENTIAL_LOGIN_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2@5fd4f8f5]" started-at="2024-05-09T10:42:22 IST" name="teardown" finished-at="2024-05-09T10:42:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2@5fd4f8f5]" started-at="2024-05-09T10:42:22 IST" name="setup" finished-at="2024-05-09T10:42:31 IST" duration-ms="9481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_BACK_BUTTON_AFTER_LOGOUT_LOGIN_008()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2@5fd4f8f5]" started-at="2024-05-09T10:42:31 IST" name="VALIDATE_BACK_BUTTON_AFTER_LOGOUT_LOGIN_008" finished-at="2024-05-09T10:42:31 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_BACK_BUTTON_AFTER_LOGOUT_LOGIN_008]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_BACK_BUTTON_AFTER_LOGOUT_LOGIN_008 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2@5fd4f8f5]" started-at="2024-05-09T10:42:31 IST" name="teardown" finished-at="2024-05-09T10:42:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_008_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_009_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_009_LOGIN_FUNCTIONALITY2@74455848]" started-at="2024-05-09T10:40:28 IST" name="setup" finished-at="2024-05-09T10:40:34 IST" duration-ms="5627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_password_toggle_hide_LOGIN_009()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_009_LOGIN_FUNCTIONALITY2@74455848]" started-at="2024-05-09T10:40:34 IST" name="VALIDATE_password_toggle_hide_LOGIN_009" finished-at="2024-05-09T10:40:34 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_password_toggle_hide_LOGIN_009]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_password_toggle_hide_LOGIN_009 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_009_LOGIN_FUNCTIONALITY2@74455848]" started-at="2024-05-09T10:40:34 IST" name="teardown" finished-at="2024-05-09T10:40:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_009_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_004_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_004_LOGIN_FUNCTIONALITY2@69e1dd28]" started-at="2024-05-09T10:41:01 IST" name="setup" finished-at="2024-05-09T10:41:10 IST" duration-ms="9530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_WITHOUTS_CREDENTIAL_LOGIN_001()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_004_LOGIN_FUNCTIONALITY2@69e1dd28]" started-at="2024-05-09T10:41:10 IST" name="VALIDATE_WITHOUTS_CREDENTIAL_LOGIN_001" finished-at="2024-05-09T10:41:10 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_WITHOUTS_CREDENTIAL_LOGIN_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_WITHOUTS_CREDENTIAL_LOGIN_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_004_LOGIN_FUNCTIONALITY2@69e1dd28]" started-at="2024-05-09T10:41:10 IST" name="teardown" finished-at="2024-05-09T10:41:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_004_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_012_LOGIN_FUNCTIONALITY">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_012_LOGIN_FUNCTIONALITY@e1de817]" started-at="2024-05-09T10:40:16 IST" name="setup" finished-at="2024-05-09T10:40:23 IST" duration-ms="6894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_login__CHANGE_PASSWORD_LOGIN_FUNCTIONALITY_001()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_012_LOGIN_FUNCTIONALITY@e1de817]" started-at="2024-05-09T10:40:23 IST" name="VALIDATE_login__CHANGE_PASSWORD_LOGIN_FUNCTIONALITY_001" finished-at="2024-05-09T10:40:23 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_login__CHANGE_PASSWORD_LOGIN_FUNCTIONALITY_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_login__CHANGE_PASSWORD_LOGIN_FUNCTIONALITY_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_012_LOGIN_FUNCTIONALITY@e1de817]" started-at="2024-05-09T10:40:23 IST" name="teardown" finished-at="2024-05-09T10:40:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_012_LOGIN_FUNCTIONALITY -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_001_LOGIN_FUNCTIONALITY">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_001_LOGIN_FUNCTIONALITY@e7edb54]" started-at="2024-05-09T10:40:34 IST" name="setup" finished-at="2024-05-09T10:40:43 IST" duration-ms="9073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_VALID_CREDENTIAL_LOGIN_001()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_001_LOGIN_FUNCTIONALITY@e7edb54]" started-at="2024-05-09T10:40:43 IST" name="VALIDATE_VALID_CREDENTIAL_LOGIN_001" finished-at="2024-05-09T10:40:43 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_VALID_CREDENTIAL_LOGIN_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_VALID_CREDENTIAL_LOGIN_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_001_LOGIN_FUNCTIONALITY@e7edb54]" started-at="2024-05-09T10:40:43 IST" name="teardown" finished-at="2024-05-09T10:40:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_001_LOGIN_FUNCTIONALITY -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_003_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_003_LOGIN_FUNCTIONALITY2@67080771]" started-at="2024-05-09T10:41:49 IST" name="setup" finished-at="2024-05-09T10:42:00 IST" duration-ms="10403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_INVALID_PASSWORD_LOGIN_001()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_003_LOGIN_FUNCTIONALITY2@67080771]" started-at="2024-05-09T10:42:00 IST" name="VALIDATE_INVALID_PASSWORD_LOGIN_001" finished-at="2024-05-09T10:42:00 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_INVALID_PASSWORD_LOGIN_001]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_INVALID_PASSWORD_LOGIN_001 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_003_LOGIN_FUNCTIONALITY2@67080771]" started-at="2024-05-09T10:42:00 IST" name="teardown" finished-at="2024-05-09T10:42:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_003_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_011_LOGIN_FUNCTIONALITY4">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_011_LOGIN_FUNCTIONALITY4@3738449f]" started-at="2024-05-09T10:40:51 IST" name="setup" finished-at="2024-05-09T10:41:01 IST" duration-ms="9520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_rightclick_password_pagesource_LOGIN_011()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_011_LOGIN_FUNCTIONALITY4@3738449f]" started-at="2024-05-09T10:41:01 IST" name="VALIDATE_rightclick_password_pagesource_LOGIN_011" finished-at="2024-05-09T10:41:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_rightclick_password_pagesource_LOGIN_011]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_rightclick_password_pagesource_LOGIN_011 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_011_LOGIN_FUNCTIONALITY4@3738449f]" started-at="2024-05-09T10:41:01 IST" name="teardown" finished-at="2024-05-09T10:41:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_011_LOGIN_FUNCTIONALITY4 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_005_LOGIN_FUNCTIONALITY2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_005_LOGIN_FUNCTIONALITY2@2e55dd0c]" started-at="2024-05-09T10:40:23 IST" name="setup" finished-at="2024-05-09T10:40:28 IST" duration-ms="5610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_FORGOT_PASSWORD_LINK_LOGIN_005()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_005_LOGIN_FUNCTIONALITY2@2e55dd0c]" started-at="2024-05-09T10:40:28 IST" name="VALIDATE_FORGOT_PASSWORD_LINK_LOGIN_005" finished-at="2024-05-09T10:40:28 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_FORGOT_PASSWORD_LINK_LOGIN_005]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_FORGOT_PASSWORD_LINK_LOGIN_005 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_005_LOGIN_FUNCTIONALITY2@2e55dd0c]" started-at="2024-05-09T10:40:28 IST" name="teardown" finished-at="2024-05-09T10:40:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_005_LOGIN_FUNCTIONALITY2 -->
+      <class name="TS_002_LOGIN_FUNCTIONALITY.TC_GM_010_LOGIN_FUNCTIONALITY3">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_010_LOGIN_FUNCTIONALITY3@11bd0f3b]" started-at="2024-05-09T10:41:10 IST" name="setup" finished-at="2024-05-09T10:41:20 IST" duration-ms="9206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VALIDATE_rightclick_copy_option_LOGIN_010()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_010_LOGIN_FUNCTIONALITY3@11bd0f3b]" started-at="2024-05-09T10:41:20 IST" name="VALIDATE_rightclick_copy_option_LOGIN_010" finished-at="2024-05-09T10:41:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[method nameVALIDATE_rightclick_copy_option_LOGIN_010]]>
+            </line>
+            <line>
+              <![CDATA[method status1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VALIDATE_rightclick_copy_option_LOGIN_010 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TS_002_LOGIN_FUNCTIONALITY.TC_GM_010_LOGIN_FUNCTIONALITY3@11bd0f3b]" started-at="2024-05-09T10:41:20 IST" name="teardown" finished-at="2024-05-09T10:41:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TS_002_LOGIN_FUNCTIONALITY.TC_GM_010_LOGIN_FUNCTIONALITY3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
